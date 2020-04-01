@@ -11,10 +11,13 @@ class App extends React.Component {
     };
   }
   render() {
-    return (<>
-      <div>Hello World</div>
-      <SpeedCalculator/>
-    </>);
+    return (
+      <div className="container">
+        <div className="row">
+          <SpeedCalculator />
+        </div>
+      </div>
+    );
   }
 }
 
