@@ -14,7 +14,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="row">
+        <div className="row border p-2 m-2">
           <TimeCalculator />
           <SpeedCalculator />
         </div>

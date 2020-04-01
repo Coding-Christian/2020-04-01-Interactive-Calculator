@@ -22,7 +22,7 @@ function SpeedCalculator(props) {
     setStartTime(0);
   }
   return (
-    <div className="col-12 border p-2 m-2">
+    <div className="col-12 my-4">
       <h3>Test Your Reading Speed</h3>
       <p>
         Echidnas are medium-sized, solitary mammals covered with coarse hair
@@ -39,8 +39,8 @@ function SpeedCalculator(props) {
       </p>
       <div>{Math.floor(time / 1000)} Seconds</div>
       <div>{time ? Math.floor(111 / (time / 60000)) : 0} WPM</div>
-      <button onClick={toggle} className='mr-1'>{isActive ? 'Stop' : 'Start'}</button>
-      <button onClick={reset} className='mr-1'>Reset</button>
+      <button onClick={toggle} className='mr-1 btn btn-primary'>{isActive ? 'Stop' : 'Start'}</button>
+      <button onClick={reset} className='mr-1 btn btn-danger'>Reset</button>
     </div>
   );
 }
