@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function timeCalculator(props) {
+function TimeCalculator(props) {
   const [readingSpeed, setReadingSpeed] = useState(0);
   const [pageCount, setPageCount] = useState(0);
   const [wordsPerPage, setWordsPerPage] = useState(250);
@@ -54,4 +54,4 @@ function timeCalculator(props) {
   </>);
 }
 
-export default timeCalculator;
+export default TimeCalculator;
