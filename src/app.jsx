@@ -1,5 +1,6 @@
 import React from 'react';
 import SpeedCalculator from './speedCalculator';
+import TimeCalculator from './timeCalculator';
 
 class App extends React.Component {
   constructor(props) {
@@ -14,6 +15,7 @@ class App extends React.Component {
     return (
       <div className="container">
         <div className="row">
+          <TimeCalculator />
           <SpeedCalculator />
         </div>
       </div>
