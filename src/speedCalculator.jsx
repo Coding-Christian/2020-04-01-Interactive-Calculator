@@ -23,6 +23,7 @@ function SpeedCalculator(props) {
   }
   return (
     <div className="col-12 my-4">
+      <hr/>
       <h3>Test Your Reading Speed</h3>
       <p>
         Echidnas are medium-sized, solitary mammals covered with coarse hair
