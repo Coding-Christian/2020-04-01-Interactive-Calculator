@@ -1,5 +1,7 @@
 # Today's Objective: Interactive Calculator
 
+CODEPEN LINK: https://codepen.io/coding-christian/full/gOpyOLP
+
 ## Prize
 
 $25 CAD Amazon gift card + bragging rights.
@@ -22,7 +24,7 @@ Today's objective is to create a simple interactive calculator of your own desig
 
 ## Requirements
 
-Create an interactive calculator! 
+Create an interactive calculator!
 
 The design can be of your own choosing, and so this project is very open-ended. Here are some suggestions:
 
@@ -37,7 +39,7 @@ Outputs: tip amount, grand total
 
 ### Suggested project: Bill split calculator
 
-Take a restaurant bill and split it between a number of parties. 
+Take a restaurant bill and split it between a number of parties.
 
 Inputs: bill amount, number of parties.
 Outputs: amount of money each party has to pay
